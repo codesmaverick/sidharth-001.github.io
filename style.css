@@ -3,11 +3,3 @@ body{
 	overflow: hidden;
 	background: rgb(251, 86, 86);
 }
-
-img{
-	border-radius: 250px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
