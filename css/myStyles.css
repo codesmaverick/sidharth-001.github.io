@@ -22,7 +22,7 @@ body{
 }
 
 section{
-    padding: 100px 10px 30px;
+    padding: 100px 10px 50px;
 }
 
 .section-head{
@@ -36,15 +36,14 @@ section{
 
 .pro{
     text-align: center;
-    background-color: #9CC3D5;
+    background-color: #292b2c;
     height: 200px;
-    top: 50%;
     border: #fff solid;
     border-radius: 10px;
 }
 
 .pro-top{
-    padding-top: 18%;
+    padding-top: 16%;
     color: #fff;
     font-weight: bold;
 }
