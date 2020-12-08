@@ -17,7 +17,7 @@ body{
     height: 92vh;
     padding-top: 25vh;
     background: #333;
-    background-image: url('../bg.jpg');
+    background-image: url('../media/bg.jpg');
     background-size: cover;
 }
 
@@ -46,6 +46,11 @@ section{
     padding-top: 16%;
     color: #fff;
     font-weight: bold;
+}
+
+.modal-img{
+    border: orange 2px solid;
+    margin: 10px 0;
 }
 
 ::-webkit-scrollbar {
