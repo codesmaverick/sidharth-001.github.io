@@ -6,6 +6,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sidharth</title>
+        <link href="media/fav.png" rel="icon" type="image/x-icon">
+
         <!-- CSS Stylesheets -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,14 +29,15 @@
     </head>
 
     <body>
+
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="navbar-collapse collapse w-100 order-1 order-md-0 data-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects </a>
+                        <a class="nav-link" href="#project">Projects </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                 </ul>
             </div>
@@ -47,10 +50,10 @@
             <div class="navbar-collapse collapse w-100 order-3 data-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Me </a>
+                        <a class="nav-link" href="#about">About Me </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me </a>
+                        <a class="nav-link" href="#contact">Contact Me </a>
                     </li>
                 </ul>
             </div>
@@ -84,8 +87,6 @@
                 </div>
             </div>
         </div>
-
-
         <div id="p2Modal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <div class="modal-content">
@@ -112,8 +113,6 @@
                 </div>
             </div>
         </div>
-
-
         <div id="p3Modal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <div class="modal-content">
@@ -137,9 +136,6 @@
                 </div>
             </div>
         </div>
-        
-
-
         <div id="p4Modal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <div class="modal-content">
@@ -166,8 +162,6 @@
                 </div>
             </div>
         </div>
-
-
         <div id="p5Modal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <div class="modal-content">
@@ -203,7 +197,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
-                        <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, minima nobis. Impedit quibusdam nostrum, voluptates laborum voluptatibus, quisquam sunt placeat assumenda esse non eaque alias provident vel odit corrupti corporis!</p>
+                        <p class="text-center text-light py-3" style="font-size: large;">
+                            I write code that solve everyday problems. I’m working on one right now that helps people get to sleep.
+                        </p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -216,18 +212,18 @@
         <section id="about">
             <div class="container">
                 <h1 class="section-head">Hi, I am Sidharth</h1>
-                <div class="row py-2">
-                    <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-12 py-2">
                         <div class="module-border-wrap">
                             <div class="module">
-                                <p>I am pursuing bachelor of technology from Delhi Technological University (2018-2022) with a degree in Mathematics and Computing Engineering. My interests are in Front-End Engineering and I love to create performant products with delightful user experiences. Also, I am obsessed with coding. Computer Science was my favorite subject, that’s why, in school and Engineering, I scored good marks in computer programming as compared to other subjects. Also, I have done few courses on C, C++, Python, HTML, CSS, JS. I am also good with Frameworks like Bootstrap, SASS/SCSS, jQuery.</p>
+                                <p>I am pursuing bachelor of technology from Delhi Technological University (2018-2022) with a degree in Mathematics and Computing Engineering. My interests are in Front-End Engineering and I love to create performant products with delightful user experiences. Also, I am obsessed with coding. Computer Science was my favorite subject, that’s why, in school and Engineering, I scored good marks in computer programming as compared to other subjects. Also, I have done  few courses and built several projects on C, C++, Python, HTML, CSS, JS. I am also good with Frameworks like Bootstrap, SASS/SCSS, jQuery.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card">
+                    <div class="col-12 col-md-6 py-2">
+                        <div class="card" style="border-radius: 30px;">
                             <div class="card-header bg-secondary text-light text-center"><h5>My Hobbies</h5></div>
-                            <div class="card-body">
+                            <div class="card-body bg-light" style="border: #6c757e solid 2px; border-top: 0; border-radius: 0 0 30px 30px;">
                                 <ul>
                                     <li class="text-primary"> Web Development</li>
                                     <li class="text-primary"> Watching T.V. and Comedy serials</li>
@@ -239,13 +235,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row py-2">
-                    <div class="col-12 col-md-6">
-                        <div class="card">
+                    <div class="col-12 col-md-6 py-2">
+                        <div class="card" style="border-radius: 30px;">
                             <div class="card-header bg-secondary text-light text-center"><h5>My Strengths and Weaknesses</h5></div>
-                            <div class="card-body">
+                            <div class="card-body bg-light" style="border: #6c757e solid 2px; border-top: 0; border-radius: 0 0 30px 30px;">
                                 <ul style="list-style-type: none;">
                                     <li class="text-success"><i class="fa fa-check"></i> Positive towards things</li>
                                     <li class="text-success"><i class="fa fa-check"></i> Motivate and help others</li>
@@ -256,13 +249,6 @@
                                     <li class="text-danger"><i class="fa fa-times"></i> I sometimes lack confidence</li>
                                     <li class="text-danger"><i class="fa fa-times"></i> I trust others very easily</li>
                                 </ul>   
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="module-border-wrap">
-                            <div class="module">
-                                <p>Coming to my work experience; I was an Intern (October 2020 – November 2020) at Agixury as a Front-End web Developer Intern. Also had an Internship with Falcorobotics as Web Developer Intern (April 2020 – May 2020). Although we all know, practical knowledge only comes with experience. Luckily, I got very good working team, they are very co-operative by nature, so that all projects were successful and appreciated by others. I built several projects over the period of my graduating years on Python, HTML, CSS, JS, Bootstrap.</p>
                             </div>
                         </div>
                     </div>
@@ -312,7 +298,7 @@
             <div class="container">
                 <h1 class="section-head">Projects</h1>
                 <div class="row justify-content-center py-4">
-                    <div class="col-sm-12 col-md-4 pro">
+                    <div class="col-sm-12 col-md-4 bg-dark pro">
                         <h3 class="pro-top">Image Downloader</h3>
                         <div class="row">
                             <div class="col-12">
@@ -323,7 +309,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 pro">
+                    <div class="col-sm-12 col-md-4 bg-dark pro">
                         <h3 class="pro-top">Queue Simulator</h3>
                         <div class="row">
                             <div class="col-12">
@@ -334,7 +320,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 pro">
+                    <div class="col-sm-12 col-md-4 bg-dark pro">
                         <h3 class="pro-top">Word Cloud</h3>
                         <div class="row">
                             <div class="col-12">
@@ -345,7 +331,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 pro">
+                    <div class="col-sm-12 col-md-4 bg-dark pro">
                         <h3 class="pro-top">Password Generator</h3>
                         <div class="row">
                             <div class="col-12">
@@ -356,7 +342,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 pro">
+                    <div class="col-sm-12 col-md-4 bg-dark pro">
                         <h3 class="pro-top">Ristorante confusion</h3>
                         <div class="row">
                             <div class="col-12">
@@ -377,7 +363,6 @@
                 <h1 class="section-head">Contact Me</h1>
                 <div class="row">
                     <div class="col-12">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis accusamus assumenda porro nemo, cumque perspiciatis fugiat quam iure doloremque a dolor itaque veniam hic explicabo. Beatae sapiente quaerat fugit molestiae.</p>
                         <p>I know that's a lot to take in, so let me know if anything I've said doesn't make sense. Please do not hesitate to contact me, feel free to get in touch.</p>
                     </div>
                 </div>
@@ -391,47 +376,19 @@
             </div>
         </section>
 
-        <footer>
+
+        <footer class="bg-dark">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center text-light py-2">
                         ©️ All rights reserved
                     </div>
                 </div>
             </div>
         </footer>
 
-
         <script src="js/myScript.js" type="text/javascript"></script>
+
     </body>
-
-
-    <script>
-        $(document).ready(function(){
-            $('#p1btn').click(function(){
-                $('#p1Modal').modal('show');
-            });
-        });
-        $(document).ready(function(){
-            $('#p2btn').click(function(){
-                $('#p2Modal').modal('show');
-            });
-        });
-        $(document).ready(function(){
-            $('#p3btn').click(function(){
-                $('#p3Modal').modal('show');
-            });
-        });
-        $(document).ready(function(){
-            $('#p4btn').click(function(){
-                $('#p4Modal').modal('show');
-            });
-        });
-        $(document).ready(function(){
-            $('#p5btn').click(function(){
-                $('#p5Modal').modal('show');
-            });
-        });
-    </script>
 
 </html>
