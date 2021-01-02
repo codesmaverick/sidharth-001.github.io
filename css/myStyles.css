@@ -22,11 +22,13 @@ body{
 }
 
 section{
-    padding: 100px 10px 50px;
+    padding: 120px 10px 50px;
 }
 
 .section-head{
     padding-bottom: 20px;
+    text-align: center;
+    font-size: 3rem;
 }
 
 .btn-xl{
@@ -67,9 +69,6 @@ section{
     border-radius: 0 50px;
 }
 
-.card{
-    height: 280px;
-}
 
 ::-webkit-scrollbar {
 	width: 12px;
