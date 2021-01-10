@@ -49,7 +49,6 @@ section{
     font-weight: bold;
 }
 
-
 .modal-img{
     border: #777 2px solid;
     margin: 10px 0;
@@ -86,5 +85,5 @@ section{
 }
 
 ::selection{
-    background: rgb(41, 43, 44, 0.4);
+    background: rgba(41, 43, 44, 0.5);
 }
