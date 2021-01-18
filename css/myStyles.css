@@ -96,3 +96,21 @@ section{
     background: rgba(41, 43, 44, 0.6);
     color: #fff;
 }
+
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    background-image: url("../media/load.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15rem;
+}
