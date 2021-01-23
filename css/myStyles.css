@@ -97,10 +97,10 @@ section{
     color: #fff;
 }
 
-#page {
+#page{
     display: none;
 }
-#loading {
+#loading{
     display: block;
     position: absolute;
     top: 0;
@@ -122,31 +122,10 @@ section{
     background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
 }
 
-@media only screen and (max-width: 600px) {
-    .circle{
-        margin: 0 0 10px 0;
-        margin-left: 23%;
-    }
-    .ratings{
-        font-size: medium!important;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .line{
-        display: none;
-    }
-  }
-@media screen and (max-width: 1024px) {
-    .line{
-        display: none;
-    }
-}
 
 .line{
     border-left: 6px solid #6C757D;
 }
-
 .line1{
     height: 20px;
     position: absolute;
@@ -185,7 +164,28 @@ section{
 }
 
 .half-star{
-    background: linear-gradient(90deg, rgba(254,231,21,1) 50%, rgba(211,211,211,1) 50%);
+    background: linear-gradient(90deg, rgb(254,231,21) 50%, rgb(211,211,211) 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    .circle{
+        margin: 0 0 10px 0;
+        margin-left: 23%;
+    }
+    .ratings{
+        font-size: medium!important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .line{
+        display: none;
+    }
+  }
+@media screen and (max-width: 1024px) {
+    .line{
+        display: none;
+    }
 }
