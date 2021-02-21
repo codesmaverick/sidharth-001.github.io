@@ -43,29 +43,37 @@ section{
     border-radius: 10px;
 }
 
+#bg-queue{
+    background-image: url("../media/blur/queue.webp");
+    background-size: cover;
+}
+#bg-cloud{
+    background-image: url("../media/blur/cloud.webp");
+    background-size: cover;
+}
+#bg-extension{
+    background-image: url("../media/blur/cloud.webp");
+    background-size: cover;
+}
+#bg-generator{
+    background-image: url("../media/blur/generator.webp");
+    background-size: cover;
+}
+#bg-confusion{
+    background-image: url("../media/blur/confusion.webp");
+    background-size: cover;
+}
+
 .pro-top{
     padding-top: 16%;
     color: #fff;
     font-weight: bold;
 }
 
+
 .modal-img{
     border: #777 2px solid;
     margin: 10px 0;
-}
-
-.module-border-wrap{
-    position: relative;
-    background: linear-gradient(to right, #868f96, #596164);
-    padding: 3px;
-    border-radius: 0 50px;
-}
-
-.module{
-    background: #F0F0F0;
-    color: #000;
-    padding: 20px;
-    border-radius: 0 50px;
 }
 
 .nav-link{
@@ -75,26 +83,6 @@ section{
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: rgb(52, 58, 64);
-}
-
-::-webkit-scrollbar {
-	width: 12px;
-	background-color: #aaa;
-}
-
-::-webkit-scrollbar-track {
-	border-radius: 10px;
-	background-color: #aaa;
-}
-
-::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	background-color: rgb(41, 43, 44);
-}
-
-::selection{
-    background: rgba(41, 43, 44, 0.6);
-    color: #fff;
 }
 
 #page{
@@ -115,19 +103,6 @@ section{
     background-size: 15rem;
 }
 
-.circle{
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
-}
-.circle div{
-    color: #fff;
-    font-weight: bold;
-    padding-top: 36%;
-    font-size: medium;
-}
-
 .ratings{
     width: 180px;
     border-radius: 20px;
@@ -136,22 +111,22 @@ section{
     padding: 3px 0;
     margin: 10px auto;
 }
-.bg-bronze{
+.bd-bronze{
     border: #CD7F32 solid;
 }
-.bg-silver{
+.bd-silver{
     border: silver solid;
 }
-.bg-gold{
+.bd-gold{
     border: gold solid;
 }
+.bd-black{
+    color: #343a40;
+    border: #6c757d solid;
+    background-color: #f0f0f0;
+}
 
-
-@media only screen and (max-width: 600px) {
-    .circle{
-        margin-bottom: 10px;
-        margin-left: 23%;
-    }
+@media only screen and (max-width: 600px){
     .ratings{
         width: 130px;
     }
@@ -160,13 +135,23 @@ section{
         font-size: medium!important;
     }
 }
-@media screen and (max-width: 992px) {
-    .line{
-        display: none;
-    }
-  }
-@media screen and (max-width: 1024px) {
-    .line{
-        display: none;
-    }
+
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #aaa;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: rgb(41, 43, 44);
+}
+
+::selection{
+    background: rgba(41, 43, 44, 0.6);
+    color: #fff;
 }
