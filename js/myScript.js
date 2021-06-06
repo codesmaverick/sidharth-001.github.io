@@ -1,27 +1,27 @@
 $(document).ready(function(){
-    $('#p0btn').click(function(){
-        $('#p0Modal').modal('show');
+    $('#todo-btn').click(function(){
+        $('#todo-modal').modal('show');
     });
-    $('#p1btn').click(function(){
-        $('#p1Modal').modal('show');
+    $('#extension-btn').click(function(){
+        $('#extension-modal').modal('show');
     });
-    $('#p2btn').click(function(){
-        $('#p2Modal').modal('show');
+    $('#article-btn').click(function(){
+        $('#article-modal').modal('show');
     });
-    $('#p3btn').click(function(){
-        $('#p3Modal').modal('show');
+    $('#queue-btn').click(function(){
+        $('#queue-modal').modal('show');
     });
-    $('#p4btn').click(function(){
-        $('#p4Modal').modal('show');
+    $('#mcdtu-btn').click(function(){
+        $('#mcdtu-modal').modal('show');
     });
-    $('#p5btn').click(function(){
-        $('#p5Modal').modal('show');
+    $('#generator-btn').click(function(){
+        $('#generator-modal').modal('show');
     });
-    $('#p6btn').click(function(){
-        $('#p6Modal').modal('show');
+    $('#cloud-btn').click(function(){
+        $('#cloud-modal').modal('show');
     });
-    $('#p7btn').click(function(){
-        $('#p7Modal').modal('show');
+    $('#confusion-btn').click(function(){
+        $('#confusion-modal').modal('show');
     });
 });
 
