@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $('#p0btn').click(function(){
+        $('#p0Modal').modal('show');
+    });
     $('#p1btn').click(function(){
         $('#p1Modal').modal('show');
     });
@@ -13,6 +16,12 @@ $(document).ready(function(){
     });
     $('#p5btn').click(function(){
         $('#p5Modal').modal('show');
+    });
+    $('#p6btn').click(function(){
+        $('#p6Modal').modal('show');
+    });
+    $('#p7btn').click(function(){
+        $('#p7Modal').modal('show');
     });
 });
 

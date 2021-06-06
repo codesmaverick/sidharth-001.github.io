@@ -52,7 +52,7 @@ section{
     background-size: cover;
 }
 #bg-extension{
-    background-image: url("../media/blur/cloud.webp");
+    background-image: url("../media/blur/extension.webp");
     background-size: cover;
 }
 #bg-generator{
@@ -63,13 +63,26 @@ section{
     background-image: url("../media/blur/confusion.webp");
     background-size: cover;
 }
-
-.pro-top{
-    padding-top: 16%;
-    color: #fff;
-    font-weight: bold;
+#bg-todo{
+    background-image: url("../media/blur/todo.webp");
+    background-size: cover;
+}
+#bg-article{
+    background-image: url("../media/blur/article.webp");
+    background-size: cover;
+}
+#bg-mcdtu{
+    background-image: url("../media/blur/mcdtu.webp");
+    background-size: cover;
 }
 
+.pro-top{
+    padding-top: 15%;
+    color: #B48648;
+    font-weight: bold;
+
+    -webkit-text-stroke: 0.5px #000;
+}
 
 .modal-img{
     border: #777 2px solid;
@@ -147,17 +160,17 @@ section{
 }
 
 ::-webkit-scrollbar {
-	width: 12px;
+	width: 7px;
 	background-color: #aaa;
 }
 
 ::-webkit-scrollbar-track {
-	border-radius: 10px;
+	border-radius: 7px;
 	background-color: #aaa;
 }
 
 ::-webkit-scrollbar-thumb {
-	border-radius: 10px;
+	border-radius: 7px;
 	background-color: rgb(41, 43, 44);
 }
 
