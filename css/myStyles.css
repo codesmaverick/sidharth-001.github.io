@@ -139,6 +139,16 @@ section{
     background-color: #f0f0f0;
 }
 
+.btn-group{
+    
+    transition: all 0.6s ease-in-out;
+}
+
+.btn-group:hover{
+    transform: scale(1.2);
+    transition: transform 0.8s ease-in-out;
+}
+
 @media only screen and (max-width: 600px){
     .ratings{
         width: 130px;
