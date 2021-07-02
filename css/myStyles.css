@@ -37,11 +37,19 @@ section{
 }
 
 .pro{
-    text-align: center;
     height: 200px;
+    width: 360px;
+    margin: 10px;
+    text-align: center;
     border: rgb(220,220,220) solid;
     border-radius: 10px;
     transition: all 0.2s ease-in-out;
+}
+
+.pro-card{
+    margin: 20px;
+    width: 300px;
+    border: aqua 2px;
 }
 
 .pro-top{
