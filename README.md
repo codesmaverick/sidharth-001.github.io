@@ -1,3 +1,3 @@
-# sidharth-001.github.io
+# sidharthcodes.github.io
 
-My portfolio website is live [click here](https://sidharth-001.github.io/ "Sidharth") to visit
+My portfolio website is live [click here](https://sidharthcodes.github.io/ "Sidharth") to visit
