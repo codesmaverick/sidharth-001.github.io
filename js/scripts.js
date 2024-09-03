@@ -1,3 +1,31 @@
+$(document).ready(function(){
+    $('#todo-btn').click(function(){
+        $('#todo-modal').modal('show');
+    });
+    $('#extension-btn').click(function(){
+        $('#extension-modal').modal('show');
+    });
+    $('#article-btn').click(function(){
+        $('#article-modal').modal('show');
+    });
+    $('#queue-btn').click(function(){
+        $('#queue-modal').modal('show');
+    });
+    $('#mcdtu-btn').click(function(){
+        $('#mcdtu-modal').modal('show');
+    });
+    $('#generator-btn').click(function(){
+        $('#generator-modal').modal('show');
+    });
+    $('#cloud-btn').click(function(){
+        $('#cloud-modal').modal('show');
+    });
+    $('#confusion-btn').click(function(){
+        $('#confusion-modal').modal('show');
+    });
+});
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     var navbarShrink = function () {

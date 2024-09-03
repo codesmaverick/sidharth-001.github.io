@@ -1,5 +1,46 @@
 @charset "UTF-8";
 
+.card-img-top{
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+}
+
+
+
+#bg-queue{
+  background-image: url("../media/blur/queue.webp");
+  background-size: cover;
+}
+#bg-cloud{
+  background-image: url("../media/blur/cloud.webp");
+  background-size: cover;
+}
+#bg-extension{
+  background-image: url("../media/blur/extension.webp");
+  background-size: cover;
+}
+#bg-generator{
+  background-image: url("../media/blur/generator.webp");
+  background-size: cover;
+}
+#bg-confusion{
+  background-image: url("../media/blur/confusion.webp");
+  background-size: cover;
+}
+#bg-todo{
+  background-image: url("../media/blur/todo.webp");
+  background-size: cover;
+}
+#bg-article{
+  background-image: url("../media/blur/article.webp");
+  background-size: cover;
+}
+#bg-mcdtu{
+  background-image: url("../media/blur/mcdtu.webp");
+  background-size: cover;
+}
+
 #page-top{
   display: none;
 }
